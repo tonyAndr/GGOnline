@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Endless Space 2</string>
+    <string name="game_name" translatable="false">Endless%20Space%202</string>
+    <string name="base_url" translatable="false">392110</string>
+</resources>

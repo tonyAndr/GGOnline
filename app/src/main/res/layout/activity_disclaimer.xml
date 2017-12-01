@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/disc_thanks"
+        android:text="Thanks for installing our app!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v4.widget.NestedScrollView
+        android:layout_below="@+id/disc_thanks"
+        android:layout_above="@+id/startup_dialog_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+
+            android:textColor="@color/colorAccent"
+            android:text="@string/startup_dialog_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/startup_bottom_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/alert_btn_quit"
+            android:text="QUIT"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/alert_btn_ok"
+            android:text="AGREE"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">LEGO Worlds</string>
+    <string name="game_name" translatable="false">LEGO%20Worlds</string>
+    <string name="base_url" translatable="false">332310</string>
+
+    <string name="ad_web_banner" translatable="false">ca-app-pub-7967525850781172/2581657244</string>
+    <string name="ad_fullscreen" translatable="false">ca-app-pub-7967525850781172/4058390442</string>
+
+    <string name="link_reddit" translatable="false">https://www.reddit.com/r/legoworldsgame/</string>
+    <string name="link_wallhaven" translatable="false">https://alpha.wallhaven.cc/tag/491</string>
+    <string name="link_wikia" translatable="false">http://lego-worlds.wikia.com/wiki/LEGO_Worlds_Wikia</string>
+</resources>

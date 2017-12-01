@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">DayZ</string>
+    <string name="game_name" translatable="false">DayZ</string>
+    <string name="base_url" translatable="false">221100</string>
+</resources>

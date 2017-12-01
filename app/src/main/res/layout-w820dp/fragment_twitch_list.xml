@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="?attr/backgroundCardColor"
+        android:textColor="?attr/primaryTextColor"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Streams"
+        android:textAllCaps="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <FrameLayout
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:name="online.gameguides.fragments.TwitchFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/backgroundActivityColor"
+        tools:context="online.gameguides.fragments.TwitchFragment">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/twitch_recycle_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="LinearLayoutManager"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:listitem="@layout/twitch_list_item" />
+
+        <include layout="@layout/errorview_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <include layout="@layout/progress_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+</LinearLayout>

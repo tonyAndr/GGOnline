@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Hearts of Iron IV</string>
+    <string name="game_name" translatable="false">Hearts%20of%20Iron%20IV</string>
+    <string name="base_url" translatable="false">39436000</string>
+
+    <string name="ad_web_banner" translatable="false">ca-app-pub-7967525850781172/2194485647</string>
+    <string name="ad_fullscreen" translatable="false">ca-app-pub-7967525850781172/3671218846</string>
+
+    <string name="link_reddit" translatable="false">https://www.reddit.com/r/hoi4/</string>
+    <string name="link_wikia" translatable="false">http://www.hoi4wiki.com/Hearts_of_Iron_4_Wiki</string>
+    <string name="link_wallhaven" translatable="false"></string>
+</resources>

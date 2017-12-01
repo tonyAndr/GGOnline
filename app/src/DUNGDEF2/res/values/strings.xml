@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Dungeon Defenders II</string>
+    <string name="game_name" translatable="false">Dungeon%20Defenders%20II</string>
+    <string name="base_url" translatable="false">236110</string>
+</resources>

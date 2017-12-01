@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name" translatable="false">GameGuides</string>
+    <string name="game_name" translatable="false">%GAMETITLE%</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_discover">All Games</string>
+    <string name="menu_mostpopular">POPULAR</string>
+    <string name="menu_toprated">TOP RATED</string>
+    <string name="menu_mostrecent">NEWEST</string>
+    <string name="menu_faq" translatable="false">FAQ</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="nav_help">HELP</string>
+    <string name="menu_filters_remove">Clear filters</string>
+    <string name="menu_header_active_filters">ACTIVE FILTERS</string>
+
+    <string name="faq_navigation_1">Use toolbar spinner to choose between categories (Popular, New, Top or Saved). </string>
+    <string name="faq_navigation_2">Saved section contains your saved guides, they are available for offline reading. You can save them by touching \"heart\" button in the toolbar.</string>
+    <string name="faq_navigation_header">Navigation</string>
+    <string name="faq_search_header">Search</string>
+    <string name="faq_streams_header">Streams</string>
+    <string name="faq_more_header">More</string>
+    <string name="faq_search_1">You can find any guides you want by using filter action button at the right bottom corner.</string>
+    <string name="faq_search_2">On this tab you will see the most popular streams at this moment from Twitch. Click on any of those and you will be redirected to the browser or Twitch app, if you have one installed.</string>
+    <string name="faq_more">Tab \"more\" contains some useful information for you. Take a look at the \"Useful links\" section, there are shortcuts to communities, wallpapers and other stuff dedicated to the game.\n\nAlso, there is a link to our Google Play page, where you can find more guides for games you love. </string>
+    <string name="faq_search_3">If \"Guides\" pages is active, the \"loupe\" icon in the toolbar is visible. You can use it to search for something special. It also searches text inside articles, not only in the header. If \"loupe\" is invisible, it means that you are browsing \"Saved\" section on any other tab such as \"Streams\" or \"More\". </string>
+    <string name="about_why_header">App</string>
+    <string name="about_why_1">This app collects community-made guides and provides an easy and fast access to them anytime anywhere. \n\nMost recent or top rated articles which may help you to gain better experience during playing process. \n\nSave guides to read them offline by using the \"heart\" icon (read more in FAQ).</string>
+    <string name="about_copy_header" translatable="false">Copyright</string>
+    <string name="about_copy_1">The app is not affiliated with Valve, Steam, or any of their partners. All copyrights reserved to their respective owners. </string>
+    <string name="lang_spoiler_arrow_down" translatable="false">▼</string>
+    <string name="lang_spoiler_arrow_up" translatable="false">▲</string>
+    <string name="menu_favorited">SAVED</string>
+
+    <string name="filter_language">Language</string>
+    <string name="dialog_header_search_filters">Filters</string>
+    <string name="dialog_keywords">Keyword</string>
+    <string name="dialog_lang_all">All</string>
+    <string name="dialog_apply">Apply</string>
+
+    <string name="filters">Filters</string>
+    <string name="no_filters_yet">No filters yet…</string>
+    <string name="menu_filters_lang_all">Language: Any</string>
+
+    <string name="filter_category">Category</string>
+    <string name="filter_achiev">Achievements</string>
+    <string name="filter_charac">Characters</string>
+    <string name="filter_classes">Classes</string>
+    <string name="filter_coop">Co-op</string>
+    <string name="filter_craft">Crafting</string>
+    <string name="filter_gamemodes">Game Modes</string>
+    <string name="filter_gameplay">Gameplay Basics</string>
+    <string name="filter_loot">Loot</string>
+    <string name="filter_maps">Maps or Levels</string>
+    <string name="filter_modding">Modding or Configuration</string>
+    <string name="filter_multi">Multiplayer</string>
+    <string name="filter_secrets">Secrets</string>
+    <string name="filter_story">Story or Lore</string>
+    <string name="filter_trading">Trading</string>
+    <string name="filter_walkthr">Walkthroughs</string>
+    <string name="filter_weap">Weapons</string>
+    <string name="filter_workshop">Workshop</string>
+
+    <string-array name="filters">
+        <item>Achievements</item>
+        <item>Characters</item>
+        <item>Classes</item>
+        <item>Co-op</item>
+        <item>Crafting</item>
+        <item>Game+Modes</item>
+        <item>Gameplay+Basics</item>
+        <item>Loot</item>
+        <item>Maps+Or+Levels</item>
+        <item>Modding+Or+Configuration</item>
+        <item>Multiplayer</item>
+        <item>Secrets</item>
+        <item>Story+Or+Lore</item>
+        <item>Trading</item>
+        <item>Walkthroughs</item>
+        <item>Weapons</item>
+        <item>Workshop</item>
+    </string-array>
+
+    <string-array name="lang" translatable="false">
+        <item>Any</item>
+        <item>English</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+        <item>Polish</item>
+        <item>Bulgarian</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>French</item>
+        <item>Finnish</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hungarian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Norwegian</item>
+        <item>Portuguese</item>
+        <item>Portuguese (Brazil)</item>
+        <item>Romanian</item>
+        <item>Swedish</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Simplified Chinese</item>
+        <item>Traditional Chinese</item>
+    </string-array>
+
+
+    <string name="ad_native_test" translatable="false">ca-app-pub-3940256099942544/2793859312</string>
+    <string name="ad_native_dark" translatable="false">ca-app-pub-7967525850781172/8204640047</string>
+    <string name="ad_native_light" translatable="false">ca-app-pub-7967525850781172/9681373242</string>
+    <string name="ad_main_banner" translatable="false">ca-app-pub-7967525850781172/2853958008</string>
+    <string name="ad_web_banner" translatable="false">ca-app-pub-7967525850781172/2853958008</string>
+    <string name="ad_fullscreen_banner" translatable="false">ca-app-pub-7967525850781172/9458771096</string>
+    <string name="ad_fullscreen_banner_test" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="base_url" translatable="false"></string>
+
+
+    <string name="snack_save_fav">Saving...</string>
+    <string name="snack_remove_fav">Removed</string>
+    <string name="snack_exists">Already exists in saved</string>
+
+
+    <!-- paging info -->
+    <string name="paging_showing">Showing</string>
+    <string name="paging_entries">entries</string>
+    <string name="paging_of">of</string>
+    <string name="empty_placeholder_btn_tryagain">Try again?</string>
+    <string name="empty_placeholder_btn_changefilters">Change filters?</string>
+    <string name="menu_fav_save">Save</string>
+    <string name="menu_fav_remove">Remove from saved</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_download">Download</string>
+    <string name="pager_btn_left" translatable="false">◀</string>
+    <string name="pager_btn_right" translatable="false">▶</string>
+    <string name="dialog_searchphrase_hint">Type a keyword</string>
+    <string name="title_activity_web" translatable="false">WebActivity</string>
+    <string name="title_activity_stuff" translatable="false">StuffActivity</string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+    <string name="share_via">Share via...</string>
+    <string name="error_oops">Oops</string>
+    <string name="error_message_items">No items yet</string>
+    <string name="error_message_nostreams">No active streams at this moment</string>
+    <string name="error_retry_filters">Change filters?</string>
+    <string name="error_message_internet">No internet connection</string>
+    <string name="error_retry_retry">Retry</string>
+    <string name="setting_guide_img_header">Load guide images</string>
+    <string name="setting_guide_img_sub">Decreases mobile data usage, but some guides are useless without images.</string>
+    <string name="setting_list_img_header">Load guide icons</string>
+    <string name="setting_list_img_sub">Load or not icons in Explore sections (Top, Popular, Recent...). Probably will save some data too.</string>
+
+    <string name="notification_title">New guides arrived!</string>
+    <string name="notification_text">Check out new and popular guides on this week</string>
+    <string name="menu_more_apps">Get More Guides</string>
+
+    <string-array name="base_array" translatable="false">
+
+    </string-array>
+
+    <string-array name="game_titles" translatable="false">
+
+    </string-array>
+
+    <string name="ad_native" translatable="false">ca-app-pub-7967525850781172/5567401249</string>
+    <string name="setting_show_notifications">Enable notifications</string>
+    <string name="setting_show_notifications_sub">Show notifications about new guides from time to time</string>
+
+    <string name="offline_access_available">Offline access available</string>
+    <string name="nav_links">USEFUL LINKS</string>
+    <string name="nav_switches">Preferences</string>
+    <string name="menu_steampage" translatable="false">Steam</string>
+    <string name="menu_wikipage" translatable="false">Wikia</string>
+    <string name="menu_reddit">Reddit</string>
+    <string name="menu_wallhaven">Wallpapers</string>
+    <string name="menu_twitch">Twitch.tv</string>
+
+    <string name="link_reddit" translatable="false"></string>
+    <string name="link_wallhaven" translatable="false"></string>
+    <string name="link_wikia" translatable="false"></string>
+    <string name="link_steam" translatable="false">http://store.steampowered.com/app/</string>
+    <string name="link_twitch" translatable="false">https://www.twitch.tv/directory/game/</string>
+    <string name="account_url">https://play.google.com/store/apps/developer?id=GameGuides.Online</string>
+    <string name="menu_search">Search</string>
+    <string name="about_policy_header">Privacy Policy</string>
+    <string name="about_feedback_header">Feedback</string>
+    <string name="about_privacy_text">Read more about our privacy policies on our web-site: <a href="http://gameguides.online/privacy-policy/">http://gameguides.online/privacy-policy/</a>.</string>
+    <string name="about_feedback_text">For any suggestions or content complains feel free to write us at support@gameguides.online. </string>
+
+    <string name="twitch_streams_url"></string>
+
+    <string name="tab_guides">Guides</string>
+    <string name="tab_streams">Streams</string>
+    <string name="tab_more">More</string>
+
+    <string name="viewers_icon"><font color="@color/accentColor">👤</font></string>
+    <string name="prefs_images_text">You are in mobile data saving mode. Turn on \"Show Images\" switcher to disable it.</string>
+    <string name="startup_dialog_text">GuideGames.Online application collects guides and other information about your favorite game from Steam community and tracks most popular streams from Twitch using theirs public services.\n\nThe app provides easy and comfortable access to the information with additional features and doesn\'t violate terms of use of the mentioned services.\n\nHowever, those guides are UGC (user generated content) and may contain third-party images and/or videos. To prevent any intellectual property issues it is up to you to decide - use them or not (see checkbox below). \n\nAll credits and links to the original articles are saved. If you feel that some information was used without permission of its owners - please send us a message to support@gameguides.online and we will remove it ASAP. \n\nThis app doesn\'t collect, use or transfer any data and private information from your mobile device.\n\nBy continuing to the next screen you will agree to gather third-party images.</string>
+    <string name="tab_cheats">Cheats</string>
+    <string name="cheats_amp_secrets"><![CDATA[Cheats & secrets]]></string>
+    <string name="title_activity_violate">ViolateActivity</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Planet Coaster</string>
+    <string name="game_name" translatable="false">Planet%20Coaster</string>
+    <string name="base_url" translatable="false">493340</string>
+</resources>

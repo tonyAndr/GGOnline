@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">KOTK</string>
+    <string name="game_name" translatable="false">H1Z1:%20King%20of%20the%20Kill</string>
+    <string name="base_url" translatable="false">433850</string>
+</resources>

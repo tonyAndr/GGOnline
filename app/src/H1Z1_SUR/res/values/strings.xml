@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">H1Z1</string>
+    <string name="game_name" translatable="false">H1Z1:%20Just%20Survive</string>
+    <string name="base_url" translatable="false">295110</string>
+</resources>

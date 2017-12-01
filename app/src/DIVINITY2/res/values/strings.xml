@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Divinity: OS2</string>
+    <string name="game_name" translatable="false">Divinity%3A%20Original%20Sin%20II</string>
+    <string name="base_url" translatable="false">435150</string>
+</resources>

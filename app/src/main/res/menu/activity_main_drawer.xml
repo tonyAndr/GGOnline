@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:orderInCategory="100"
+        android:id="@+id/nav_games_group"
+        android:checkableBehavior="single">
+
+        <!--<item-->
+            <!--android:id="@+id/nav_discover"-->
+            <!--android:title="@string/menu_discover" />-->
+    </group>
+
+    <item
+        android:orderInCategory="200"
+        android:title="@string/menu_header_active_filters" android:id="@+id/nav_group_filters">
+        <menu>
+            <item
+                android:id="@+id/nav_filters_list"
+                android:title="@string/no_filters_yet" />
+            <item
+                android:id="@+id/nav_filters_clear"
+                android:title="@string/menu_filters_remove"/>
+        </menu>
+    </item>
+
+    <item
+        android:orderInCategory="300"
+        android:title="@string/nav_links" android:id="@+id/nav_group_links">
+        <menu >
+            <item
+                android:id="@+id/nav_steampage"
+                android:title="@string/menu_steampage" />
+            <item
+                android:id="@+id/nav_reddit"
+                android:title="@string/menu_reddit" />
+            <item
+                android:id="@+id/nav_twitch"
+                android:title="@string/menu_twitch" />
+            <item
+                android:id="@+id/nav_wikipage"
+                android:title="@string/menu_wikipage" />
+            <item
+                android:id="@+id/nav_wallhaven"
+                android:title="@string/menu_wallhaven" />
+        </menu>
+    </item>
+
+    <item
+        android:orderInCategory="300"
+        android:title="@string/nav_help">
+        <menu >
+            <!--<item-->
+                <!--android:id="@+id/nav_settings"-->
+                <!--android:title="@string/menu_settings" />-->
+            <item
+                android:id="@+id/nav_faq"
+                android:title="@string/menu_faq" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="@string/menu_about" />
+        </menu>
+    </item>
+
+</menu>

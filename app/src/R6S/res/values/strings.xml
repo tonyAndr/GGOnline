@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Rainbow 6: Siege</string>
+    <string name="game_name" translatable="false">Tom%20Clancy\'s%20Rainbow%20Six:%20Siege</string>
+    <string name="base_url" translatable="false">359550</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">War Thunder</string>
+    <string name="game_name" translatable="false">War%20Thunder</string>
+    <string name="base_url" translatable="false">236390</string>
+</resources>

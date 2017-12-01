@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Skyrim</string>
+    <string name="game_name" translatable="false">The%20Elder%20Scrolls%20V:%20Skyrim</string>
+    <string name="base_url" translatable="false">72850</string>
+</resources>

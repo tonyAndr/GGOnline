@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="?attr/backgroundCardColor"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/faq_navigation_header" />
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/faq_navigation_1"
+            android:textColor="?attr/primaryTextColor"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:padding="4dp"
+            android:background="@color/darkBackground"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:src="@drawable/new_faq_spinner" />
+
+        <ImageView
+            android:padding="4dp"
+            android:background="@color/darkBackground"
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/new_faq_spinner_opened" />
+
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/faq_navigation_2"
+            android:textColor="?attr/primaryTextColor"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:padding="4dp"
+            android:background="@color/darkBackground"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:src="@drawable/faq_2" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/faq_search_header" />
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/faq_search_3"
+            android:textColor="?attr/primaryTextColor"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:padding="4dp"
+            android:background="@color/darkBackground"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:src="@drawable/new_faq_search" />
+
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/faq_streams_header" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:text="@string/faq_search_2"
+            android:textColor="?attr/primaryTextColor"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:padding="4dp"
+            android:background="@color/darkBackground"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:src="@drawable/new_faq_streams" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/faq_more_header" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:text="@string/faq_more"
+            android:textColor="?attr/primaryTextColor"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:padding="4dp"
+            android:background="@color/darkBackground"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:src="@drawable/new_faq_more" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+

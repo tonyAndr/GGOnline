@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">DBD</string>
+    <string name="game_name" translatable="false">Dead%20by%20Daylight</string>
+    <string name="base_url" translatable="false">381210</string>
+</resources>

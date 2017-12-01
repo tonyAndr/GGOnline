@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listview_placeholder_empty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:visibility="gone">
+
+    <ImageView
+        android:src="@drawable/no_items"
+        android:tint="@color/colorAccent"
+        android:id="@+id/placeholder_empty_img"
+        android:layout_marginBottom="20dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/placeholder_emptylist_btn"
+        android:padding="2dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/empty_placeholder_btn_changefilters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

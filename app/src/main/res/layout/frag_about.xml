@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="?attr/backgroundCardColor"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="?attr/logoPlaceholder" />
+
+        <TextView
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/about_why_header"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/about_why_1"
+            android:textColor="?attr/primaryTextColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_copy_header"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:padding="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_copy_1"
+            android:textColor="?attr/primaryTextColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_policy_header"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:autoLink="web"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_privacy_text"
+            android:textColor="?attr/primaryTextColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_feedback_header"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:autoLink="web"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_feedback_text"
+            android:textColor="?attr/primaryTextColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+

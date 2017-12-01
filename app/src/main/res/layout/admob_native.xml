@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="132dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="?attr/backgroundCardColor"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:textColor="?attr/secondaryTextColor"
+        android:id="@+id/admob_replacment_review"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Hey there!\nHave any suggestions?\nLeave a review!"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.CardView>

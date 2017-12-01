@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">SpaceEngineers</string>
+    <string name="game_name" translatable="false">Space%20Engineers</string>
+    <string name="base_url" translatable="false">244850</string>
+</resources>

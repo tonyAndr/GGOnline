@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Elite</string>
+    <string name="game_name" translatable="false">Elite:%20Dangerous</string>
+    <string name="base_url" translatable="false">359320</string>
+</resources>

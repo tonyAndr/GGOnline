@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Portal Knights</string>
+    <string name="game_name" translatable="false">Portal%20Knights</string>
+    <string name="base_url" translatable="false">374040</string>
+</resources>

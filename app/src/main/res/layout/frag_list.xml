@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/backgroundActivityColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:gravity="center_horizontal"
+        android:id="@+id/rec_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include layout="@layout/errorview_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include layout="@layout/progress_placeholder"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

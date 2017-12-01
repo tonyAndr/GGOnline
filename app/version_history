@@ -1,0 +1,33 @@
+-native ads //done
+-same ads id //done
+-removed nightmode switcher //done
+-removed useful links //done
+-add github policy
+
+-fix crushed???
+
+// отдаленное будущее
+-tab: related news and game updates
+-tab: videos (from steam) w/ endless scroll
+
+
+
+1.0.0RC - Major update
+Saving to fav (offline reading) algorithm improved (much faster)
+Added cheats tab (if available)
+Nightmode now by default and is dark as night (hello AMOLED devices)
+Improved tablet layout
+Fixed many crashes, especially on tablets (on rotation)
+Removed some useless stuff
+Added support for the latest android (Oreo 8+)
+
+
+    // 0.9.5 fixed some crashes on 7+
+    // 0.9.4 fixed tos dialog
+    // 0.9.3 moved to 3 directly just in case
+    // 0.9.2 tablet fixes
+    // 0.9.1 dark mode, text formatt, on/off notification,
+    // 0.9.0 +streams +update ui +bug fixes
+
+    // 0.8.5 Notify, twitch
+    // 0.8.6 twitch, new icons, library

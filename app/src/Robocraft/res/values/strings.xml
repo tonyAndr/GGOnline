@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Robocraft</string>
+    <string name="game_name" translatable="false">Robocraft</string>
+    <string name="base_url" translatable="false">301520</string>
+</resources>

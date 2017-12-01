@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorPrimary"
+    android:layout_margin="4dp">
+
+            <LinearLayout
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+                <FrameLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="8"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:visibility="visible"
+                        android:textAllCaps="true"
+                        android:padding="8dp"
+                        android:text="@string/cheats_amp_secrets"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/darkTextPrimary"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/cheat_item_platform"
+                        android:textAllCaps="true"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:text="PC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:background="@color/colorAccent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <ImageView
+
+                        android:background="@color/colorAccent"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:src="@drawable/search_icon"
+                        android:gravity="center"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

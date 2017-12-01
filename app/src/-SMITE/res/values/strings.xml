@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Smite</string>
+    <string name="game_name" translatable="false">Smite</string>
+    <string name="base_url" translatable="false">386360</string>
+
+
+    <string name="ad_web_banner" translatable="false">ca-app-pub-7967525850781172/8637561641</string>
+    <string name="ad_fullscreen" translatable="false">ca-app-pub-7967525850781172/1114294845</string>
+
+    <string name="link_reddit" translatable="false">https://www.reddit.com/r/Smite/</string>
+    <string name="link_wallhaven" translatable="false">https://alpha.wallhaven.cc/tag/11109</string>
+    <string name="link_wikia" translatable="false">http://smite.wikia.com/wiki/Smite_Wiki</string>
+</resources>

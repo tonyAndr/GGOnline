@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">DarkSouls3</string>
+    <string name="game_name" translatable="false">Dark%20Souls%20III</string>
+    <string name="base_url" translatable="false">374320</string>
+</resources>

@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Light base activity theme -->
+    <style name="AppTheme.Primary.Base.Light" parent="AppTheme">
+        <item name="primaryTextColor">@color/colorPrimaryText</item>
+        <item name="secondaryTextColor">@color/colorSecondaryText</item>
+        <item name="backgroundCardColor">#FFFF</item>
+        <item name="backgroundActivityColor">@color/lightBackground</item>
+        <item name="logoPlaceholder">@drawable/gameguides_side</item>
+        <item name="buttonBG">@color/colorAccent</item>
+        <item name="progressBG">#99FFFFFF</item>
+        <item name="nointernet">@drawable/no_internet_light</item>
+        <item name="noitems">@drawable/no_items_light</item>
+    </style>
+    <!-- Dark base activity theme -->
+    <style name="AppTheme.Primary.Base.Dark" parent="AppTheme">
+        <item name="primaryTextColor">@color/darkTextPrimary</item>
+        <item name="secondaryTextColor">@color/darkTextSecondary</item>
+        <item name="backgroundCardColor">@color/colorPrimary</item>
+        <item name="backgroundActivityColor">@color/darkBackground</item>
+        <item name="logoPlaceholder">@drawable/gameguides_side_dark</item>
+        <item name="buttonBG">@color/darkBackground</item>
+        <item name="progressBG">@color/darkProgressBackground</item>
+        <item name="nointernet">@drawable/no_internet_dark</item>
+        <item name="noitems">@drawable/no_items_dark</item>
+    </style>
+
+    <!-- Specific Feed activity theme -->
+    <style name="ActivityThemeLight" parent="AppTheme.Primary.Base.Light">
+        <item name="android:windowBackground">@color/lightBackground</item>
+    </style>
+
+    <style name="ActivityThemeDark" parent="AppTheme.Primary.Base.Dark">
+        <item name="android:windowBackground">@color/darkBackground</item>
+        <item name="android:colorBackground">@color/darkBackground</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="Color1SwitchStyle">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Primary.Base.Dark.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Primary.Base.Dark.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

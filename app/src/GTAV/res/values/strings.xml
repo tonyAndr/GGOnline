@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">GTAV</string>
+    <string name="game_name" translatable="false">Grand%20Theft%20Auto%20V</string>
+    <string name="base_url" translatable="false">271590</string>
+</resources>

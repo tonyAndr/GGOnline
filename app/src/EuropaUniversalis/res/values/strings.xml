@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Europa Universalis IV</string>
+    <string name="game_name" translatable="false">Europa%20Universalis%20IV</string>
+    <string name="base_url" translatable="false">236850</string>
+</resources>

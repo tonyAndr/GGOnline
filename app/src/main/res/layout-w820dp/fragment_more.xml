@@ -1,0 +1,205 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="online.gameguides.fragments.MoreFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:background="?attr/backgroundCardColor"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:text="More"
+        android:textAllCaps="true"
+        android:textColor="?attr/primaryTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+
+        <LinearLayout
+            android:background="?attr/backgroundCardColor"
+            android:orientation="vertical"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:id="@+id/btn_more_about"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/buttonBG"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="4dp">
+
+                    <ImageView
+                        android:id="@+id/ic_more_about"
+                        android:layout_width="@dimen/more_action_icon_size"
+                        android:layout_height="@dimen/more_action_icon_size"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:paddingLeft="8dp"
+                        android:text="@string/menu_about"
+                        android:textAllCaps="true"
+                        android:textColor="?attr/primaryTextColor"
+                        android:textSize="@dimen/more_action_text_size"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_more_faq"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/more_top_margin"
+                    android:layout_weight="1"
+                    android:background="?attr/buttonBG"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="4dp">
+
+                    <ImageView
+                        android:id="@+id/ic_more_faq"
+                        android:layout_width="@dimen/more_action_icon_size"
+                        android:layout_height="@dimen/more_action_icon_size"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:paddingLeft="8dp"
+                        android:text="@string/menu_faq"
+                        android:textAllCaps="true"
+                        android:textColor="?attr/primaryTextColor"
+                        android:textSize="@dimen/more_action_text_size"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ib_more_get"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/more_top_margin"
+                    android:layout_weight="1"
+                    android:background="?attr/buttonBG"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="4dp">
+
+                    <ImageView
+                        android:id="@+id/ic_more_get"
+                        android:layout_width="@dimen/more_action_icon_size"
+                        android:layout_height="@dimen/more_action_icon_size"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:paddingLeft="8dp"
+                        android:text="Get More"
+                        android:textAllCaps="true"
+                        android:textColor="?attr/primaryTextColor"
+                        android:textSize="@dimen/more_action_text_size"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <Switch
+                    android:visibility="gone"
+                    android:background="?attr/buttonBG"
+                    style="@style/Color1SwitchStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingBottom="@dimen/more_switcher_padding_top_bottom"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="@dimen/more_switcher_padding_top_bottom"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/primaryTextColor"
+                    android:textSize="@dimen/more_action_text_size"
+                    android:textStyle="bold"
+                    android:id="@+id/switch_nightmode"
+                    android:text="Nightmode" />
+                <Switch
+
+                    android:background="?attr/buttonBG"
+                    android:id="@+id/switch_notifications"
+                    style="@style/Color1SwitchStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingBottom="@dimen/more_switcher_padding_top_bottom"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="@dimen/more_switcher_padding_top_bottom"
+                    android:text="Notifications"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/primaryTextColor"
+                    android:textSize="@dimen/more_action_text_size"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:layout_marginTop="8dp"
+                    android:background="?attr/buttonBG"
+                    android:id="@+id/switch_images"
+                    style="@style/Color1SwitchStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingBottom="@dimen/more_switcher_padding_top_bottom"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="@dimen/more_switcher_padding_top_bottom"
+                    android:text="Data saving"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/primaryTextColor"
+                    android:textSize="@dimen/more_action_text_size"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+

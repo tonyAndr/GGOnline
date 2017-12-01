@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Terraria</string>
+    <string name="game_name" translatable="false">Terraria</string>
+    <string name="base_url" translatable="false">105600</string>
+</resources>

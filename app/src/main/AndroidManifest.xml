@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="online.gameguides">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature
+        android:name="com.sec.feature.spen_usp"
+        android:required="false" />
+
+    <application
+        android:name=".utils.GGApplication"
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Primary.Base.Dark">
+        <receiver
+            android:name=".notifications.NotificationAlarmReceiver"
+            android:enabled="true" />
+        <receiver
+            android:name=".notifications.NotificationDismissReceiver"
+            android:enabled="true" />
+
+        <activity
+            android:name=".activities.LaunchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="standard"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activities.WebActivity"
+            android:label="@string/title_activity_web" />
+        <activity
+            android:name=".activities.StuffActivity"
+            android:label="@string/title_activity_stuff" />
+
+        <service
+            android:name=".utils.DownloadIntentService"
+            android:exported="false" />
+        <service
+            android:name=".utils.ReadFileIntentService"
+            android:exported="false" />
+        <service
+            android:name=".notifications.NotifyService"
+            android:exported="false" />
+
+        <activity android:name=".activities.CheatsActivity" />
+        <activity
+            android:name=".activities.OopsActivity"
+            android:label="@string/title_activity_violate"
+            android:theme="@style/AppTheme.Primary.Base.Dark"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">FONV</string>
+    <string name="game_name" translatable="false">Fallout:%20New%20Vegas</string>
+    <string name="base_url" translatable="false">22380</string>
+</resources>

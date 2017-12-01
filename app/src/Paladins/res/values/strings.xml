@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Paladins</string>
+    <string name="game_name" translatable="false">Paladins</string>
+    <string name="base_url" translatable="false">444090</string>
+</resources>

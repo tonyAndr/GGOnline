@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name" translatable="false">Friday 13th</string>
+    <string name="game_name" translatable="false">Friday%20the%2013th:%20The%20Game</string>
+    <string name="base_url" translatable="false">438740</string>
+
+</resources>

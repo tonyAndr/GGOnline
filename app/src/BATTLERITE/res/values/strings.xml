@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Battlerite</string>
+    <string name="game_name" translatable="false">Battlerite</string>
+    <string name="base_url" translatable="false">504370</string>
+</resources>

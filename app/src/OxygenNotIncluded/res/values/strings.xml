@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Oxygen Not Included</string>
+    <string name="game_name" translatable="false">Oxygen%20Not%20Included</string>
+    <string name="base_url" translatable="false">457140</string>
+</resources>

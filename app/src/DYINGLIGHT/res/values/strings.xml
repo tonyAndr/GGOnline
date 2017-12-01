@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">DyingLight</string>
+    <string name="game_name" translatable="false">Dying%20Light</string>
+    <string name="base_url" translatable="false">239140</string>
+</resources>

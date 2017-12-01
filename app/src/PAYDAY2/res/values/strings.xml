@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">PAYDAY 2</string>
+    <string name="game_name" translatable="false">Payday%202</string>
+    <string name="base_url" translatable="false">218620</string>
+</resources>

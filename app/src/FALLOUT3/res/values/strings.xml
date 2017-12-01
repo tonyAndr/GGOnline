@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Fallout 3</string>
+    <string name="game_name" translatable="false">Fallout%203</string>
+    <string name="base_url" translatable="false">22300</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">XCOM2</string>
+    <string name="game_name" translatable="false">XCOM%202</string>
+    <string name="base_url" translatable="false">268500</string>
+</resources>

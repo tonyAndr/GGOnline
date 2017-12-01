@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contant_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="online.gameguides.activities.MainActivity">
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ad_main_banner" />
+
+    <FrameLayout
+        android:id="@+id/frag_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/adView" />
+
+</RelativeLayout>

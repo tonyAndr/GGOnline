@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">DS Together</string>
+    <string name="game_name" translatable="false">Don\'t%20Starve%20Together</string>
+    <string name="base_url" translatable="false">322330</string>
+</resources>

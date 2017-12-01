@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context="online.gameguides.activities.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:animateLayoutChanges="true"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.AppBarOverlay">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/colorAccent"
+                    android:lines="1"
+                    android:paddingBottom="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="4dp"
+                    android:text="@string/app_name"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@color/colorAccent"
+                    android:visibility="gone"
+                    app:adSize="BANNER"
+                    app:adUnitId="@string/ad_web_banner" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="?attr/backgroundActivityColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/backgroundActivityColor"
+            android:orientation="horizontal"
+            android:padding="@dimen/tablet_fragments_margin">
+
+            <LinearLayout
+                android:id="@+id/main_tablet_content_container_left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <FrameLayout
+
+                    android:id="@+id/main_tablet_list"
+                    android:name="online.gameguides.fragments.MyFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:layout="@layout/frag_list" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main_tablet_content_container_middle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <FrameLayout
+                    android:id="@+id/main_tablet_cheats"
+                    android:name="online.gameguides.fragments.CheatsFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    tools:layout="@layout/fragment_cheats" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main_tablet_content_container_right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <include
+                    layout="@layout/warning_datasavingmode"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:visibility="gone"
+                    app:layout_scrollFlags="scroll|enterAlways" />
+
+                <FrameLayout
+                    android:id="@+id/main_tablet_streams"
+                    android:name="online.gameguides.fragments.TwitchFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:layout_marginBottom="8dp"
+                    tools:layout="@layout/fragment_twitch_list" />
+                <FrameLayout
+                    android:id="@+id/main_tablet_more"
+                    android:name="online.gameguides.fragments.MoreFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:layout="@layout/fragment_more" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <include layout="@layout/progress_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="16dp">
+
+            <EditText
+
+                android:id="@+id/search_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dialog_searchphrase_hint"
+                android:inputType="text" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorPrimaryText"
+                android:paddingTop="8dp"
+                android:textSize="18sp"
+                android:text="@string/filter_category" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="#aaa" />
+
+            <CheckBox
+                android:id="@+id/cb0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_achiev" />
+
+            <CheckBox
+                android:id="@+id/cb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_charac" />
+
+            <CheckBox
+                android:id="@+id/cb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_classes" />
+
+            <CheckBox
+                android:id="@+id/cb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_coop" />
+
+            <CheckBox
+                android:id="@+id/cb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_craft" />
+
+            <CheckBox
+                android:id="@+id/cb5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_gamemodes" />
+
+            <CheckBox
+                android:id="@+id/cb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_gameplay" />
+
+            <CheckBox
+                android:id="@+id/cb7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_loot" />
+
+            <CheckBox
+                android:id="@+id/cb8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_maps" />
+
+            <CheckBox
+                android:id="@+id/cb9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_modding" />
+
+            <CheckBox
+                android:id="@+id/cb10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_multi" />
+
+            <CheckBox
+                android:id="@+id/cb11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_secrets" />
+
+            <CheckBox
+                android:id="@+id/cb12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_story" />
+
+            <CheckBox
+                android:id="@+id/cb13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_trading" />
+
+            <CheckBox
+                android:id="@+id/cb14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_walkthr" />
+
+            <CheckBox
+                android:id="@+id/cb15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_weap" />
+
+            <CheckBox
+                android:id="@+id/cb16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/filter_workshop" />
+        </LinearLayout>
+    </ScrollView>
+    <!--<ImageButton-->
+    <!--android:tint="@color/colorAccent"-->
+    <!--android:id="@+id/close_btn"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:background="#0000"-->
+    <!--android:src="@android:drawable/ic_menu_close_clear_cancel"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+    <!--style="@style/Widget.AppCompat.Button.Colored"-->
+    <!--android:id="@+id/apply_btn"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:text="@string/dialog_apply"-->
+    <!--android:layout_height="wrap_content"/>-->
+</RelativeLayout>

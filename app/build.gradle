@@ -1,0 +1,349 @@
+apply plugin: 'com.android.application'
+
+android {
+    dexOptions {
+        javaMaxHeapSize "4g" //specify the heap size for the dex process
+    }
+
+    signingConfigs {
+        config {
+            keyAlias 'GameGuides.Online'
+            keyPassword 'P711424685'
+            storeFile file('/home/dev/Desktop/Project/KEYS/GameGuidesOnline.jks')
+            storePassword 'h1gfhjkm'
+        }
+        newConfig {
+            keyAlias 'GameGuides.Signed'
+            keyPassword 'P711424685'
+            storeFile file('/home/dev/Desktop/Project/KEYS/GameGuidesSigned.jks')
+            storePassword 'h1gfhjkm'
+        }
+    }
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "online.gameguides"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 100
+        versionName '1.0.0 RC'
+    }
+
+
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+            proguardFiles 'proguard-android.txt', 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            zipAlignEnabled true
+            versionNameSuffix "-" + android.defaultConfig.versionCode
+        }
+        release {
+            minifyEnabled false
+            proguardFiles 'proguard-android.txt', 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            zipAlignEnabled true
+            versionNameSuffix "-" + android.defaultConfig.versionCode
+        }
+    }
+
+    flavorDimensions "all"
+    productFlavors {
+        CIV6 {
+            dimension "all"
+            applicationId "online.gameguides.civ6"
+        }
+        CIV5 {
+            dimension "all"
+            applicationId "online.gameguides.civ5"
+        }
+        W3 {
+            dimension "all"
+            applicationId "online.gameguides.w3"
+        }
+        RE7 {
+            dimension "all"
+            applicationId "online.gameguides.re7"
+        }
+        PitPeople {
+            dimension "all"
+            applicationId "online.gameguides.pitp"
+        }
+        Paladins {
+            dimension "all"
+            applicationId "online.gameguides.paladins"
+        }
+        GMOD {
+            dimension "all"
+            applicationId "online.gameguides.gmod"
+        }
+        H1Z1_KOTK {
+            dimension "all"
+            applicationId "online.gameguides.h1z1kotk"
+        }
+        H1Z1_SUR {
+            dimension "all"
+            applicationId "online.gameguides.h1z1sur"
+        }
+        R6S {
+            dimension "all"
+            applicationId "online.gameguides.r6s"
+        }
+        SKYRIM {
+            dimension "all"
+            applicationId "online.gameguides.skyrim"
+        }
+        UNTURNED {
+            dimension "all"
+            applicationId "online.gameguides.unturned"
+        }
+        ARKSE {
+            dimension "all"
+            applicationId "online.gameguides.arkse"
+        }
+        GTAV {
+            dimension "all"
+            applicationId "online.gameguides.gtav"
+        }
+        STARVE_TOGETHER {
+            dimension "all"
+            applicationId "online.gameguides.dontstarvetogether"
+        }
+        STARVE_SINGLE {
+            dimension "all"
+            applicationId "online.gameguides.dontstarve"
+        }
+        FACTORIO {
+            dimension "all"
+            applicationId "online.gameguides.factorio"
+        }
+        KERBAL {
+            dimension "all"
+            applicationId "online.gameguides.kerbal"
+        }
+        TERRARIA {
+            dimension "all"
+            applicationId "online.gameguides.terraria"
+        }
+        TRANSPORT {
+            dimension "all"
+            applicationId "online.gameguides.transfever"
+        }
+        ARMA3 {
+            dimension "all"
+            applicationId "online.gameguides.arma3"
+        }
+        EVE {
+            dimension "all"
+            applicationId "online.gameguides.eve"
+        }
+        FALLOUT4 {
+            dimension "all"
+            applicationId "online.gameguides.f4"
+        }
+        SMITE {
+            dimension "all"
+            applicationId "online.gameguides.smite"
+        }
+        DOTA2 {
+            dimension "all"
+            applicationId "online.gameguides.dota2"
+        }
+        STARDEW {
+            dimension "all"
+            applicationId "online.gameguides.stardew"
+        }
+
+        REBIRTH {
+            dimension "all"
+            applicationId "online.gameguides.rebirth"
+        }
+        ASTRONEER {
+            dimension "all"
+            applicationId "online.gameguides.astroneer"
+        }
+        BRAWL {
+            dimension "all"
+            applicationId "online.gameguides.brawl"
+        }
+        DAYLIGHT {
+            dimension "all"
+            applicationId "online.gameguides.daylight"
+        }
+        TROVE {
+            dimension "all"
+            applicationId "online.gameguides.trove"
+        }
+        XCOM2 {
+            dimension "all"
+            applicationId "online.gameguides.xcom2"
+        }
+        FOREST {
+            dimension "all"
+            applicationId "online.gameguides.theforest"
+        }
+        SKYLINES {
+            dimension "all"
+            applicationId "online.gameguides.skylines"
+        }
+        AOE2 {
+            dimension "all"
+            applicationId "online.gameguides.aoe2"
+        }
+        DAYZ {
+            dimension "all"
+            applicationId "online.gameguides.dayz"
+        }
+        MB_WARBAND {
+            dimension "all"
+            applicationId "online.gameguides.mbwarband"
+        }
+
+        DS3 {
+            dimension "all"
+            applicationId "online.gameguides.ds3"
+        }
+        FONV {
+            dimension "all"
+            applicationId "online.gameguides.fonv"
+        }
+
+        ELITE {
+            dimension "all"
+            applicationId "online.gameguides.elite"
+        }
+        DYINGLIGHT {
+            dimension "all"
+            applicationId "online.gameguides.dyinglight"
+        }
+        FORHONOR {
+            dimension "all"
+            applicationId "online.gameguides.forhonor"
+        }
+        CHIVALRY {
+            dimension "all"
+            applicationId "online.gameguides.chivalry"
+        }
+        GHOSTRECON {
+            dimension "all"
+            applicationId "online.gameguides.GHOSTRECON"
+        }
+        BLACKWAKE {
+            dimension "all"
+            applicationId "online.gameguides.blackwake"
+        }
+        FRIDAY13TH {
+            dimension "all"
+            applicationId "online.gameguides.friday13th"
+        }
+        FALLOUT3 {
+            dimension "all"
+            applicationId "online.gameguides.fallout3"
+        }
+        PORTALKNIGHTS {
+            dimension "all"
+            applicationId "online.gameguides.portalknights"
+        }
+        BLACKDESERT {
+            dimension "all"
+            applicationId "online.gameguides.blackdesert"
+        }
+        SEVENDAYSTODIE {
+            dimension "all"
+            applicationId "online.gameguides.sevendaystodie"
+        }
+        EuropaUniversalis {
+            dimension "all"
+            applicationId "online.gameguides.EuropaUniversalis"
+        }
+
+        WARFRAME {
+            dimension "all"
+            applicationId "online.gameguides.warframe"
+        }
+
+        // GuideGames.Signed
+        STELLARIS {
+            dimension "all"
+            applicationId "online.gameguides.stellaris"
+        }
+        PUBG {
+            dimension "all"
+            applicationId "online.gameguides.pubg"
+        }
+        PLANETCOASTER {
+            dimension "all"
+            applicationId "online.gameguides.planetcoaster"
+        }
+        BATTLERITE {
+            dimension "all"
+            applicationId "online.gameguides.battlerite"
+        }
+        GOLDRUSH {
+            dimension "all"
+            applicationId "online.gameguides.goldrushthegame"
+        }
+        DIVINITY2 {
+            dimension "all"
+            applicationId "online.gameguides.divinityoriginalsin2"
+        }
+        PAYDAY2 {
+            dimension "all"
+            applicationId "online.gameguides.PAYDAY2"
+        }
+        WARTHUNDER {
+            dimension "all"
+            applicationId "online.gameguides.WARTHUNDER"
+        }
+        Robocraft {
+            dimension "all"
+            applicationId "online.gameguides.Robocraft"
+        }
+        SPACEENGI {
+            dimension "all"
+            applicationId "online.gameguides.spaceengi"
+        }
+        HeroesGenerals {
+            dimension "all"
+            applicationId "online.gameguides.HeroesGenerals"
+        }
+        UNDERTALE {
+            dimension "all"
+            applicationId "online.gameguides.undertale"
+        }
+        ENDLESSSPACE2 {
+            dimension "all"
+            applicationId "online.gameguides.endlessspace2"
+        }
+        OxygenNotIncluded {
+            dimension "all"
+            applicationId "online.gameguides.oxygennotincluded"
+        }
+        DUNGDEF2 {
+            dimension "all"
+            applicationId "online.gameguides.dungeondefendersii"
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support:support-v4:26.1.0'
+    compile 'org.jsoup:jsoup:1.8.3'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.wang.avi:library:1.0.1'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.koushikdutta.ion:ion:2.1.6'
+    compile 'com.github.xiprox.errorview:library:2.2.0'
+    compile 'com.mikepenz:iconics-core:2.8.2@aar'
+    compile 'com.mikepenz:google-material-typeface:3.0.1.0.original@aar'
+    compile 'com.mikepenz:community-material-typeface:1.8.36.1@aar'
+    compile 'com.google.android.gms:play-services-ads:11.6.0'
+    compile 'com.github.hotchemi:android-rate:1.0.0'
+    compile 'com.android.support:cardview-v7:26.1.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+}

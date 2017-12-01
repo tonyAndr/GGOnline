@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">CIV6</string>
+    <string name="game_name" translatable="false">Sid%20Meier\'s%20Civilization%20VI</string>
+    <string name="base_url" translatable="false">289070</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">M&amp;B Warband</string>
+    <string name="game_name" translatable="false">Mount%20%26%20Blade:%20Warband</string>
+    <string name="base_url" translatable="false">48700</string>
+</resources>

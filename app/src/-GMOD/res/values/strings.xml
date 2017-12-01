@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">GMOD</string>
+    <string name="game_name" translatable="false">Garry\'s%20Mod</string>
+    <string name="base_url" translatable="false">4000</string>
+</resources>

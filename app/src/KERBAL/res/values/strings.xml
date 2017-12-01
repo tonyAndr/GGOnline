@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Kerbal</string>
+    <string name="game_name" translatable="false">Kerbal%20Space%20Program</string>
+    <string name="base_url" translatable="false">220200</string>
+</resources>

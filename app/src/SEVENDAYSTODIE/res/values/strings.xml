@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">7 Days to Die</string>
+    <string name="game_name" translatable="false">7%20Days%20to%20Die</string>
+    <string name="base_url" translatable="false">251570</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">TransFever</string>
+    <string name="game_name" translatable="false">Transport Fever</string>
+    <string name="base_url" translatable="false">446800</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name" translatable="false">Heroes &amp; Generals</string>
+    <string name="game_name" translatable="false">Heroes%20%26%20Generals</string>
+    <string name="base_url" translatable="false">227940</string>
+
+</resources>

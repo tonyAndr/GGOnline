@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">ARMA3</string>
+    <string name="game_name" translatable="false">Arma%203</string>
+    <string name="base_url" translatable="false">107410</string>
+</resources>

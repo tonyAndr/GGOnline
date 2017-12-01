@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Blackwake</string>
+    <string name="game_name" translatable="false">Blackwake</string>
+    <string name="base_url" translatable="false">420290</string>
+</resources>

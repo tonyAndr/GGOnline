@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Isaac Rebirth</string>
+    <string name="game_name" translatable="false">The%20Binding%20of%20Isaac:%20Rebirth</string>
+    <string name="base_url" translatable="false">250900</string>
+</resources>

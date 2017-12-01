@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Trove</string>
+    <string name="game_name" translatable="false">Trove</string>
+    <string name="base_url" translatable="false">304050</string>
+</resources>

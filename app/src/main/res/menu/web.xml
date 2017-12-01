@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="online.gameguides.activities.MainActivity">
+
+    <item
+        android:title="@string/menu_fav_save"
+        android:id="@+id/menu_save"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="@string/menu_fav_remove"
+        android:id="@+id/menu_delete"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="@string/menu_share"
+        android:id="@+id/menu_share"
+        app:showAsAction="ifRoom"/>
+    <!--<item-->
+        <!--android:title="@string/menu_share"-->
+        <!--android:id="@+id/menu_download"-->
+        <!--app:showAsAction="ifRoom"/>-->
+
+</menu>

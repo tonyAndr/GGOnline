@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Don\'t Starve Alone</string>
+    <string name="game_name" translatable="false">Don\'t%20Starve</string>
+    <string name="base_url" translatable="false">219740</string>
+</resources>

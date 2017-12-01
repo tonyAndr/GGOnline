@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Gold Rush</string>
+    <string name="game_name" translatable="false">Gold%20Rush%3A%20The%20Game</string>
+    <string name="base_url" translatable="false">451340</string>
+</resources>

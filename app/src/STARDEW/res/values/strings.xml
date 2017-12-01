@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Stardew</string>
+    <string name="game_name" translatable="false">Stardew%20Valley</string>
+    <string name="base_url" translatable="false">413150</string>
+</resources>

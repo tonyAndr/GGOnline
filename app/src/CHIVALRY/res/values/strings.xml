@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Chivalry</string>
+    <string name="game_name" translatable="false">Chivalry:%20Medieval%20Warfare</string>
+    <string name="base_url" translatable="false">219640</string>
+</resources>

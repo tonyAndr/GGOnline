@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Witcher 3</string>
+    <string name="game_name" translatable="false">The%20Witcher%203:%20Wild%20Hunt</string>
+    <string name="base_url" translatable="false">292030</string>
+</resources>

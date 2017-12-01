@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="online.gameguides.fragments.CheatsFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundActivityColor"
+    tools:context="online.gameguides.fragments.CheatsFragment">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cheats_recycle_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="LinearLayoutManager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@layout/cheat_list_item" />
+
+    <include layout="@layout/errorview_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include layout="@layout/progress_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

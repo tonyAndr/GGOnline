@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">RE7</string>
+    <string name="game_name" translatable="false">Resident%20Evil%207%20biohazard</string>
+    <string name="base_url" translatable="false">418370</string>
+
+    <string name="ad_web_banner" translatable="false">ca-app-pub-7967525850781172/5689048845</string>
+    <string name="ad_fullscreen" translatable="false">ca-app-pub-7967525850781172/7165782048</string>
+
+    <string name="link_reddit" translatable="false">https://www.reddit.com/r/residentevil/</string>
+    <string name="link_wallhaven" translatable="false">https://alpha.wallhaven.cc/tag/47581</string>
+    <string name="link_wikia" translatable="false">http://residentevil.wikia.com/wiki/Resident_Evil_7:_Biohazard</string>
+</resources>

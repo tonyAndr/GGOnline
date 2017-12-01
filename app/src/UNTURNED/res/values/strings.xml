@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Unturned</string>
+    <string name="game_name" translatable="false">Unturned</string>
+    <string name="base_url" translatable="false">304930</string>
+</resources>

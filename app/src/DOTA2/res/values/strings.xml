@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Dota 2</string>
+    <string name="game_name" translatable="false">Dota%202</string>
+    <string name="base_url" translatable="false">570</string>
+</resources>

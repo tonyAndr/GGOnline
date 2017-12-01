@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/setting_show_guide_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingRight="8dp"
+            android:paddingEnd="8dp"
+            android:layout_toStartOf="@+id/guide_img_toggle"
+            android:layout_toLeftOf="@+id/guide_img_toggle"
+            android:id="@+id/guide_img_prim"
+            android:text="@string/setting_guide_img_header"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingRight="8dp"
+            android:paddingEnd="8dp"
+            android:layout_toStartOf="@+id/guide_img_toggle"
+            android:layout_toLeftOf="@+id/guide_img_toggle"
+            android:layout_below="@+id/guide_img_prim"
+            android:text="@string/setting_guide_img_sub"
+            android:textSize="14sp"
+            android:textColor="@color/colorSecondaryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.SwitchCompat
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_centerVertical="true"
+            android:id="@+id/guide_img_toggle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/setting_show_list_img"
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingRight="8dp"
+            android:paddingEnd="8dp"
+            android:layout_toStartOf="@+id/guide_img_toggle_list"
+            android:layout_toLeftOf="@+id/guide_img_toggle_list"
+            android:id="@+id/guide_img_prim2"
+            android:text="@string/setting_list_img_header"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingRight="8dp"
+            android:paddingEnd="8dp"
+            android:layout_toStartOf="@+id/guide_img_toggle_list"
+            android:layout_toLeftOf="@+id/guide_img_toggle_list"
+            android:layout_below="@+id/guide_img_prim2"
+            android:text="@string/setting_list_img_sub"
+            android:textSize="14sp"
+            android:textColor="@color/colorSecondaryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.SwitchCompat
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_centerVertical="true"
+            style="@style/Widget.AppCompat.DrawerArrowToggle"
+            android:id="@+id/guide_img_toggle_list"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/setting_show_notifications"
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingRight="8dp"
+            android:paddingEnd="8dp"
+            android:layout_toStartOf="@+id/guide_notifications_toggle"
+            android:layout_toLeftOf="@+id/guide_notifications_toggle"
+            android:id="@+id/guide_notification"
+            android:text="@string/setting_show_notifications"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingRight="8dp"
+            android:paddingEnd="8dp"
+            android:layout_toStartOf="@+id/guide_notifications_toggle"
+            android:layout_toLeftOf="@+id/guide_notifications_toggle"
+            android:layout_below="@+id/guide_notification"
+            android:text="@string/setting_show_notifications_sub"
+            android:textSize="14sp"
+            android:textColor="@color/colorSecondaryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.SwitchCompat
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_centerVertical="true"
+            style="@style/Widget.AppCompat.DrawerArrowToggle"
+            android:id="@+id/guide_notifications_toggle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

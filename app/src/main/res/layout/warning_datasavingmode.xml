@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/ph3"
+    android:gravity="center"
+    android:id="@+id/warning_datasaving_layout"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+
+    <TextView
+
+        android:gravity="center"
+        android:maxLines="3"
+        android:textColor="@color/colorPrimary"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:textStyle="bold"
+        android:text="Data saving mode enabled, turn off to see images"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/warning_datasaving_turnoff"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:text="turn off"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginEnd="12dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

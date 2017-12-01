@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Astroneer</string>
+    <string name="game_name" translatable="false">Astroneer</string>
+    <string name="base_url" translatable="false">361420</string>
+
+
+    <string name="ad_web_banner" translatable="false">ca-app-pub-7967525850781172/4018572048</string>
+    <string name="ad_fullscreen" translatable="false">ca-app-pub-7967525850781172/5495305242</string>
+
+    <string name="link_reddit" translatable="false">https://www.reddit.com/r/Astroneer/</string>
+    <string name="link_wallhaven" translatable="false">https://alpha.wallhaven.cc/tag/55173</string>
+    <string name="link_wikia" translatable="false">http://astroneer.gamepedia.com/Astroneer_Wiki</string>
+</resources>

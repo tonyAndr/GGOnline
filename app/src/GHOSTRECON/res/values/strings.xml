@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Wildlands</string>
+    <string name="game_name" translatable="false">Tom%20Clancy\'s%20Ghost%20Recon:%20Wildlands</string>
+    <string name="base_url" translatable="false">460930</string>
+</resources>

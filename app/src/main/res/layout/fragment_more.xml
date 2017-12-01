@@ -1,0 +1,236 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/backgroundActivityColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="online.gameguides.fragments.MoreFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="?attr/backgroundCardColor"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    android:src="?attr/logoPlaceholder" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/btn_more_about"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="8dp"
+                        android:layout_height="32dp"
+                        android:background="?attr/buttonBG"
+                        android:clickable="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="4dp"
+                        android:paddingEnd="8dp"
+                        android:paddingStart="8dp"
+                        android:paddingTop="4dp">
+
+                        <ImageView
+                            android:id="@+id/ic_more_about"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:scaleType="fitXY" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:paddingLeft="8dp"
+                            android:text="@string/menu_about"
+                            android:textAllCaps="true"
+                            android:textColor="?attr/primaryTextColor"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_more_faq"
+                        android:layout_width="0dp"
+                        android:layout_height="32dp"
+                        android:layout_weight="1"
+                        android:layout_marginStart="8dp"
+                        android:background="?attr/buttonBG"
+                        android:clickable="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="4dp"
+                        android:paddingEnd="8dp"
+                        android:paddingStart="8dp"
+                        android:paddingTop="4dp">
+
+                        <ImageView
+                            android:id="@+id/ic_more_faq"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:scaleType="fitXY" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:paddingLeft="8dp"
+                            android:text="@string/menu_faq"
+                            android:textAllCaps="true"
+                            android:textColor="?attr/primaryTextColor"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/more_card_prefs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="?attr/backgroundCardColor"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:textAllCaps="true"
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/secondaryTextColor"
+                    android:text="@string/nav_switches" />
+
+                <Switch
+                    android:visibility="gone"
+                    style="@style/Color1SwitchStyle"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/primaryTextColor"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:id="@+id/switch_nightmode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nightmode" />
+
+                <Switch
+                    style="@style/Color1SwitchStyle"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/primaryTextColor"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:id="@+id/switch_notifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Notifications" />
+
+                <Switch
+                    style="@style/Color1SwitchStyle"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/primaryTextColor"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:id="@+id/switch_images"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DATA SAVING MODE" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="?attr/backgroundCardColor"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:textAllCaps="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/secondaryTextColor"
+                    android:text="@string/menu_more_apps" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Find more GameGuides apps in Google Play. Get them for free!"
+                    android:textColor="?attr/secondaryTextColor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/get_more_new"
+                        android:id="@+id/ib_more_get"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:background="?attr/selectableItemBackgroundBorderless" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
+
+
